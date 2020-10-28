@@ -35,6 +35,10 @@ module.exports = {
         }
       },
       {
+        test: /\.(svg)$/i,
+        loader: 'svg-url-loader'
+      },
+      {
         test: /\.(ttf)$/i,
         loader: 'file-loader',
         options: {

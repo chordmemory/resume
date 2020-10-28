@@ -1,12 +1,14 @@
 import { format } from 'date-fns';
 import * as React from 'react';
 import * as ResumeSchema from 'types/resume';
+import { Icon } from './icon';
+
 interface Props {
   resume: ResumeSchema.Resume
 }
 
-const Link = ({ label, iconUrl, url }: { label?: string, iconUrl?: string, url?: string }) => (
-  <a href={url}><img src={iconUrl} />{label}</a>
+const Link = ({ label, icon, url }: { label?: string, icon: string, url?: string }) => (
+  <a href={url}><Icon iconName={icon}/>{label}</a>
 )
 
 const EducationSummary = (props: ResumeSchema.Education) => (
@@ -60,16 +62,18 @@ export const Resume = (props: Props) => (
         <Link
           url={`tel:${props.resume.basics?.phone}`}
           label={props.resume.basics?.phone}
+          icon="email"
         />
         <Link
           url={`mailto://${props.resume.basics?.email}`}
           label={props.resume.basics?.email}
+          icon="phone"
         />
         {props.resume.basics?.profiles?.map(profile => (
           <Link
             label={profile.username || profile.network}
             url={profile.url}
-          // iconUrl={require(`assets/icons/networks/${profile.network}.png`)}
+            icon={profile.network!.toLowerCase()}
           />
         ))}
       </section>
