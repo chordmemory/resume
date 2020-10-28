@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: {
-    resume: path.resolve(__dirname, 'src/pages/resume/index.tsx')
+    resume: path.resolve(__dirname, 'src/index.tsx')
   },
   mode: 'production',
   module: {
@@ -45,7 +45,7 @@ module.exports = {
   },
   plugins: [
       new HtmlWebpackPlugin({
-          template: path.resolve(__dirname, 'src/pages/resume/resume.html'),
+          template: path.resolve(__dirname, 'src/resume.html'),
           inject: 'body',
           chunks: [ 'resume' ]
       })

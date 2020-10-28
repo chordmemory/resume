@@ -106,7 +106,7 @@ export const Resume = (props: Props) => (
     <hr/>
     <section className="footer row">
       <p>References available upon request</p>
-      <p>Built</p>
+      <a href="https://github.com/chordmemory/resume">View the source code of this resume</a>
     </section>
   </>
 )
