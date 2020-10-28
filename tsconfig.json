@@ -11,10 +11,7 @@
       "experimentalDecorators": true,
       "stripInternal": true,
       "resolveJsonModule": true,
-      "jsx": "react",
-      "types": [
-        "./src/custom.d.ts"
-      ]
+      "jsx": "react"
     },
     "compileOnSave": false
   }
