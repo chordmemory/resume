@@ -1,0 +1,17 @@
+
+{
+    "compilerOptions": {
+      "moduleResolution": "node",
+      "module": "esnext",
+      "target": "ES6",
+      "strict": true,
+      "baseUrl": "./src",
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "experimentalDecorators": true,
+      "stripInternal": true,
+      "resolveJsonModule": true,
+      "jsx": "react"
+    },
+    "compileOnSave": false
+  }

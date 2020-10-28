@@ -1,0 +1,106 @@
+@font-face {
+  font-family: 'Kollektif';
+  src: url('assets/fonts/kollektif/Kollektif.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Kollektif';
+  background-color: gray;
+  // @media (min-width: 500px) {
+  //   margin-left: 50px;
+  //   margin-right:50px;
+  // };
+}
+
+#app {
+  width: 794px;
+  min-height: 100%;
+  margin: 0 auto 0 auto;
+  padding: 0 25px 0 25px;
+  background-color: #fefefe;
+}
+
+h1 {
+  margin-top: 21px;
+  margin-bottom: 21px;
+  font-size: 62px;
+}
+
+h2 {
+  margin-bottom: 5px;
+  font-weight: lighter;
+}
+
+h3 {
+  margin-top: 9px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+h4 {
+  margin-top: 5px;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+
+ul {
+  margin-top: 5px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.grid {
+  @media (max-width: 500px) {
+    display: block;
+  };
+  * {
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin-right:10px;
+  }
+  // * when (isnumber(--units)) {
+  //   flex: 0 0 percentage(--units/12)
+  // };
+  // * when not (isnumber(--units)) {
+  //   flex: 0 0 33%;
+  // };
+  display:flex
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
