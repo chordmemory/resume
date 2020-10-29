@@ -20,15 +20,18 @@ html {
   background-color: @paper;
   display: flex;
 }
+
+@media screen {
+  @media (max-width: 680px) {
+    body {
+    }
+  };
+}
 body {
   font-family: 'Kollektif';
   background-color: @background;
   color: @paragraph;
   margin: 0 auto 0 auto;
-  // @media (min-width: 500px) {
-  //   margin-left: 50px;
-  //   margin-right:50px;
-  // };
 }
 
 #app {
@@ -57,7 +60,7 @@ h3 {
   margin-top: 9px;
   margin-bottom: 5px;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 16px !important;
 }
 
 h4 {
@@ -93,9 +96,9 @@ a {
   a {
     display: flex;
     img {
-      color: #f48024;
       height: 16px;
-      margin-right: 8px;    
+      margin-right: 8px;   
+      margin-top: -1px; 
     };
     margin-bottom: 3px;
   }
@@ -106,20 +109,14 @@ a {
 
 
 .grid {
-  @media (max-width: 500px) {
+  @media screen and (min-width: 680px) {
     display: block;
-  };
+  }
   * {
     flex-grow: 0;
     flex-shrink: 0;
     margin-right:10px;
   }
-  // * when (isnumber(--units)) {
-  //   flex: 0 0 percentage(--units/12)
-  // };
-  // * when not (isnumber(--units)) {
-  //   flex: 0 0 33%;
-  // };
   display:flex
 }
 

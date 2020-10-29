@@ -51,7 +51,8 @@ module.exports = {
       new HtmlWebpackPlugin({
           template: path.resolve(__dirname, 'src/resume.html'),
           inject: 'body',
-          chunks: [ 'resume' ]
+          chunks: [ 'resume' ],
+          favicon: path.resolve(__dirname, 'src/paw.ico')
       })
   ],
   resolve: {
