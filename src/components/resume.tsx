@@ -66,12 +66,12 @@ export const Resume = (props: Props) => (
         <Link
           url={`tel:${props.resume.basics?.phone}`}
           label={props.resume.basics?.phone}
-          icon="email"
+          icon="phone"
         />
         <Link
           url={`mailto://${props.resume.basics?.email}`}
           label={props.resume.basics?.email}
-          icon="phone"
+          icon="email"
         />
         {props.resume.basics?.profiles?.map(profile => (
           <Link
