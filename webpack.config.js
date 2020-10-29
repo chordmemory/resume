@@ -1,3 +1,6 @@
+/* eslint-env node */
+/* eslint-disable @typescript-eslint/no-var-requires */
+
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
@@ -11,7 +14,7 @@ module.exports = {
       {
         test: /\.tsx?$/,
         use: 'ts-loader',
-        exclude: /node_modules/,
+        exclude: /node_modules/
       },
       {
         test: /\.less$/,
@@ -31,7 +34,7 @@ module.exports = {
         test: /\.(png|jpe?g|gif)$/i,
         loader: 'file-loader',
         options: {
-          outputPath: 'images',
+          outputPath: 'images'
         }
       },
       {
@@ -42,25 +45,25 @@ module.exports = {
         test: /\.(ttf)$/i,
         loader: 'file-loader',
         options: {
-          outputPath: 'fonts',
+          outputPath: 'fonts'
         }
       }
-    ],
+    ]
   },
   plugins: [
-      new HtmlWebpackPlugin({
-          template: path.resolve(__dirname, 'src/resume.html'),
-          inject: 'body',
-          chunks: [ 'resume' ],
-          favicon: path.resolve(__dirname, 'src/paw.ico')
-      })
+    new HtmlWebpackPlugin({
+      template: path.resolve(__dirname, 'src/resume.html'),
+      inject: 'body',
+      chunks: ['resume'],
+      favicon: path.resolve(__dirname, 'src/paw.ico')
+    })
   ],
   resolve: {
-    extensions: [ '.tsx', '.ts', '.js' ],
-    modules: [path.resolve(__dirname, "src"), "node_modules"],
+    extensions: ['.tsx', '.ts', '.js'],
+    modules: [path.resolve(__dirname, 'src'), 'node_modules']
   },
   output: {
     filename: 'bundle.js',
-    path: path.resolve(__dirname, 'dist'),
-  }  
+    path: path.resolve(__dirname, 'dist')
+  }
 };

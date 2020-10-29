@@ -12,10 +12,9 @@ export interface Resume {
       city?: string;
       countryCode?: string;
       region?: string;
-      [k: string]: any;
     };
     profiles?: Profile[];
-  },
+  };
   work?: Job[];
   education?: Education[];
   skills?: Skill[];
@@ -35,8 +34,7 @@ export interface Skill {
   name?: string;
   level?: string;
   keywords?: string[];
-  [k: string]: any;
-};
+}
 
 export interface Education {
   institution?: string;

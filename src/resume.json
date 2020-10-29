@@ -1,112 +1,110 @@
 {
-    "basics": {
-      "name": "David Coxon",
-      "label": "Senior FullStack Engineer",
-      "picture": "",
-      "email": "david.daniel.coxon@gmail.com",
-      "phone": "+44 07543567884",
-      "summary": "Versatile Senior Developer with strengths in architecture. Great team player who can also deliver independently. Confident in leading other engineers. Dedicated to keeping it simple and making other developers' lives easier.",
-      "location": {
-        "address": "2/2 222 Darnley Street",
-        "postalCode": "G41 2JA",
-        "city": "Glasgow",
-        "countryCode": "UK",
-        "region": "Scotland"
+  "basics": {
+    "name": "David Coxon",
+    "label": "Senior FullStack Engineer",
+    "picture": "",
+    "email": "david.daniel.coxon@gmail.com",
+    "phone": "+44 07543567884",
+    "summary": "Versatile Senior Developer with strengths in architecture. Great team player who can also deliver independently. Confident in leading other engineers. Dedicated to keeping it simple and making other developers' lives easier.",
+    "location": {
+      "address": "2/2 222 Darnley Street",
+      "postalCode": "G41 2JA",
+      "city": "Glasgow",
+      "countryCode": "UK",
+      "region": "Scotland"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "chordmemory",
+        "url": "http://github.com/chordmemory"
       },
-      "profiles": [
-          {
-              "network": "Github",
-              "username": "chordmemory",
-              "url": "http://github.com/chordmemory"
-          },
-          {
-            "network": "LinkedIn",
-            "url": "https://www.linkedin.com/in/david-coxon-0b12209a/"
-        }
+      {
+        "network": "LinkedIn",
+        "url": "https://www.linkedin.com/in/david-coxon-0b12209a/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "JP Morgan",
+      "position": "Senior Associate",
+      "startDate": "2017-04-20",
+      "summary": "Core developer on high profile trading platform.",
+      "highlights": [
+        "Designed and lead major technical revision.",
+        "Devised solution for seamless upgrades.",
+        "Oversaw years without a single major production issue.",
+        "Trained multiple new joiners and graduates."
       ]
     },
-    "work": [
-        {
-            "company": "JP Morgan",
-            "position": "Senior Associate",
-            "startDate": "2017-04-20",
-            "summary": "Core developer on high profile trading platform.",
-            "highlights": [
-                "Designed and lead major technical revision.",
-                "Devised solution for seamless upgrades.",
-                "Oversaw years without a single major production issue.",
-                "Trained multiple new joiners and graduates."
-            ]
-        },
-        {
-            "company": "Lockheed Martin / Leidos",
-            "position": "Associate Developer",
-            "startDate": "2016-06-01",
-            "endDate": "2017-04-20",
-            "summary": "Formerly Lockheed Martin. Worked on a diverse set of software projects across the transport sector.",
-            "highlights": [
-                "Implemented a rest api and web front end for Air Traffic Control scheduler.",
-                "Crunched radar data to calculate fees for civil flights in UK Aerospace.",
-                "Integrated algorithm to optimise Heathrow runway usage."
-            ]
-        },
-        {
-          "company": "Lockheed Martin",
-          "position": "Associate Developer",
-          "startDate": "2015-01-01",
-          "endDate": "2016-08-01"
-      }
-    ],
-    "education": [{
+    {
+      "company": "Lockheed Martin / Leidos",
+      "position": "Associate Developer",
+      "startDate": "2016-06-01",
+      "endDate": "2017-04-20",
+      "summary": "Formerly Lockheed Martin. Worked on a diverse set of software projects across the transport sector.",
+      "highlights": [
+        "Implemented a rest api and web front end for Air Traffic Control scheduler.",
+        "Crunched radar data to calculate fees for civil flights in UK Aerospace.",
+        "Integrated algorithm to optimise Heathrow runway usage."
+      ]
+    },
+    {
+      "company": "Lockheed Martin",
+      "position": "Associate Developer",
+      "startDate": "2015-01-01",
+      "endDate": "2016-08-01"
+    }
+  ],
+  "education": [
+    {
       "institution": "University of Strathclyde",
       "area": "BSc Computer Science",
       "gpa": "2:1 Hons",
       "startDate": "2010-01-01",
       "endDate": "2014-01-01"
-    }],
-    "skills": [
-        {
-        "name": "Web Development",
-        "level": "Master",
-        "keywords": [
-          "Javascript",
-          "Typescript",
-          "React",
-          "Jest",
-          "Webpack",
-          "Eslint",
-          "Jasmine",
-          "Electron",
-          "OpenFin"
-        ]
-      },
-      {
-        "name": "Back End",
-        "level": "intermediate",
-        "keywords": [
-          "Node-js",
-          "REST",
-          "c#",
-          "My-SQL",
-          "MongoDB"
-        ]
-      },
-      {
-        "name": "Toolchain",
-        "level": "intermediate",
-        "keywords": [
-          "VsCode",
-          "Postman",
-          "Git",
-          "Git Flow",
-          "Bash",
-          "Linux",
-          "Jira",
-          "Confluence"
-        ]
-      }
-    ],
-    "references": [{
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "Javascript",
+        "Typescript",
+        "React",
+        "Jest",
+        "Webpack",
+        "Eslint",
+        "Jasmine",
+        "Electron",
+        "OpenFin"
+      ]
+    },
+    {
+      "name": "Back End",
+      "level": "intermediate",
+      "keywords": ["Node-js", "REST", "c#", "My-SQL", "MongoDB"]
+    },
+    {
+      "name": "Toolchain",
+      "level": "intermediate",
+      "keywords": [
+        "VsCode",
+        "Postman",
+        "Git",
+        "Git Flow",
+        "Bash",
+        "Linux",
+        "Jira",
+        "Confluence"
+      ]
+    }
+  ],
+  "references": [
+    {
       "reference": "References available on request."
-    }]
-  }
+    }
+  ]
+}
