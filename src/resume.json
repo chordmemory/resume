@@ -73,18 +73,19 @@
           "Javascript",
           "Typescript",
           "React",
-          "jest",
-          "webpack",
-          "eslint",
-          "jasmine",
-          "electron"
+          "Jest",
+          "Webpack",
+          "Eslint",
+          "Jasmine",
+          "Electron",
+          "OpenFin"
         ]
       },
       {
         "name": "Back End",
         "level": "intermediate",
         "keywords": [
-          "node-js",
+          "Node-js",
           "REST",
           "c#",
           "My-SQL",
