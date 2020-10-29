@@ -14,14 +14,8 @@ export interface Resume {
       region?: string;
       [k: string]: any;
     };
-    profiles?: {
-      network?: string;
-      username?: string;
-      url?: string;
-      [k: string]: any;
-    }[];
-    [k: string]: any;
-  };
+    profiles?: Profile[];
+  },
   work?: Job[];
   education?: Education[];
   skills?: Skill[];
@@ -29,6 +23,12 @@ export interface Resume {
     name?: string;
     keywords?: string[];
   }[];
+}
+
+export interface Profile {
+  network?: string;
+  username?: string;
+  url?: string;
 }
 
 export interface Skill {
