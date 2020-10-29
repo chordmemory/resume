@@ -29,17 +29,21 @@ const formatDate = (date?: string) => {
 }
 
 const Job = (props: ResumeSchema.Job) => (
-  <article>
+  <article className="job-summary">
     <div className="row">
       <h3>{props.company} - {props.position}</h3>
       <h3>{formatDate(props.startDate)} - {formatDate(props.endDate) || 'Present'}</h3>
     </div>
-    <h4>{props.summary}</h4>
-    <ul className="job-highlights">
-      {props.highlights?.map((highlight, index) => (
-        <li key={index}>{highlight}</li>
-      ))}
-    </ul>
+    {props.summary && (
+      <h4>{props.summary}</h4>
+    )}
+    {props.highlights && (
+      <ul className="job-highlights">
+        {props.highlights.map((highlight, index) => (
+          <li key={index}>{highlight}</li>
+        ))}
+      </ul>
+    )}
   </article>
 )
 

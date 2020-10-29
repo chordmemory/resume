@@ -5,7 +5,7 @@
       "picture": "",
       "email": "david.daniel.coxon@gmail.com",
       "phone": "+44 07543567884",
-      "summary": "Versatile Senior Developer with strengths in architecture. Great team player, who can deliver independently. Confident in leading other engineers. Dedicated to keeping it simple and making other developers' lives easier.",
+      "summary": "Versatile Senior Developer with strengths in architecture. Great team player who can also deliver independently. Confident in leading other engineers. Dedicated to keeping it simple and making other developers' lives easier.",
       "location": {
         "address": "2/2 222 Darnley Street",
         "postalCode": "G41 2JA",
@@ -30,32 +30,31 @@
             "company": "JP Morgan",
             "position": "Senior Associate",
             "startDate": "2017-04-20",
-            "summary": "Core developer on high profile trading platform",
+            "summary": "Core developer on high profile trading platform.",
             "highlights": [
-                "Designed and lead major technical revision",
-                "Devised solution for seamless upgrades",
-                "Oversaw years without a single major production issue",
-                "Trained multiple new joins and graduates"
+                "Designed and lead major technical revision.",
+                "Devised solution for seamless upgrades.",
+                "Oversaw years without a single major production issue.",
+                "Trained multiple new joiners and graduates."
             ]
         },
         {
-            "company": "Leidos",
+            "company": "Lockheed Martin / Leidos",
             "position": "Associate Developer",
             "startDate": "2016-06-01",
             "endDate": "2017-04-20",
             "summary": "Formerly Lockheed Martin. Worked on a diverse set of software projects across the transport sector.",
             "highlights": [
-                "Implemented a rest api and web front end for Air Traffic Control scheduler",
-                "Crunched radar data to calculate fees for civil flights in UK Aerospace",
-                "Integrated algorithm to optimise Heathrow runway usage"
+                "Implemented a rest api and web front end for Air Traffic Control scheduler.",
+                "Crunched radar data to calculate fees for civil flights in UK Aerospace.",
+                "Integrated algorithm to optimise Heathrow runway usage."
             ]
         },
         {
           "company": "Lockheed Martin",
           "position": "Associate Developer",
           "startDate": "2015-01-01",
-          "endDate": "2016-08-01",
-          "summary": "Merged with Leidos in 2016"
+          "endDate": "2016-08-01"
       }
     ],
     "education": [{
@@ -99,7 +98,7 @@
           "VsCode",
           "Postman",
           "Git",
-          "Git Glow",
+          "Git Flow",
           "Bash",
           "Linux",
           "Jira",
