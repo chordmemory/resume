@@ -6,13 +6,6 @@
     "email": "david.daniel.coxon@gmail.com",
     "phone": "+44 07543567884",
     "summary": "Versatile Senior Developer with strengths in architecture. Great team player who can also deliver independently. Confident in leading other engineers. Dedicated to keeping it simple and making other developers' lives easier.",
-    "location": {
-      "address": "2/2 222 Darnley Street",
-      "postalCode": "G41 2JA",
-      "city": "Glasgow",
-      "countryCode": "UK",
-      "region": "Scotland"
-    },
     "profiles": [
       {
         "network": "Github",
@@ -39,7 +32,7 @@
       ]
     },
     {
-      "company": "Lockheed Martin / Leidos",
+      "company": "Leidos",
       "position": "Associate Developer",
       "startDate": "2016-06-01",
       "endDate": "2017-04-20",
@@ -52,7 +45,7 @@
     },
     {
       "company": "Lockheed Martin",
-      "position": "Associate Developer",
+      "position": "Graduate/Associate Developer",
       "startDate": "2015-01-01",
       "endDate": "2016-08-01"
     }
