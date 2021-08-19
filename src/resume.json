@@ -20,10 +20,21 @@
   },
   "work": [
     {
+      "company": "AbacusNext",
+      "position": "Senior Developer",
+      "startDate": "2021-03-08",
+      "summary": "Driving modernisation of web apps and practices",
+      "highlights": [
+        "Created and implemented technical and deployment architecture to replace legacy web app with complex deployment requirements.",
+        "Introduced practices such as mono repos, componentisation and automated ui testing.",
+        "Delivered first phases of legacy rebuild ahead of schedule."
+      ]
+    },
+    {
       "company": "JP Morgan",
       "position": "Senior Associate",
       "startDate": "2017-04-20",
-      "summary": "Core developer on high profile trading platform.",
+      "summary": "Lead developer on high profile trading platform.",
       "highlights": [
         "Designed and lead major technical revision.",
         "Devised solution for seamless upgrades.",
@@ -68,17 +79,17 @@
         "Typescript",
         "React",
         "Jest",
+        "Cypress",
         "Webpack",
+        "Mono-Repo",
         "Eslint",
-        "Jasmine",
-        "Electron",
-        "OpenFin"
+        "Electron"
       ]
     },
     {
       "name": "Back End",
       "level": "intermediate",
-      "keywords": ["Node-js", "REST", "c#", "My-SQL", "MongoDB"]
+      "keywords": ["Node-js", "REST", "express", "c#", "My-SQL", "MongoDB"]
     },
     {
       "name": "Toolchain",
@@ -88,10 +99,12 @@
         "Postman",
         "Git",
         "Git Flow",
+        "Fiddler",
         "Bash",
         "Linux",
         "Jira",
-        "Confluence"
+        "Confluence",
+        "Azure Devops"
       ]
     }
   ],
