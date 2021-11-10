@@ -25,9 +25,9 @@
       "startDate": "2021-03-08",
       "summary": "Driving modernisation of web apps and practices",
       "highlights": [
-        "Created and implemented technical and deployment architecture to replace legacy web app with complex deployment requirements.",
-        "Introduced practices such as mono repos, componentisation and automated ui testing.",
-        "Delivered first phases of legacy rebuild ahead of schedule."
+        "Delivered rebuild of complicated legacy application in React.",
+        "Architected and implemented an integration layer to seamlessly replace legacy application whilst maintaining its deep integrations.",
+        "Drove practices such as mono repos, componentisation and automated ui testing."
       ]
     },
     {
