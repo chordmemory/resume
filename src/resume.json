@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "David Coxon",
-    "label": "Senior FullStack Engineer",
+    "label": "Lead Web Software Engineer",
     "picture": "",
     "email": "david.daniel.coxon@gmail.com",
     "phone": "+44 07543567884",
-    "summary": "Versatile Senior Developer with strengths in architecture. Great team player who can also deliver independently. Confident in leading other engineers. Dedicated to keeping it simple and making other developers' lives easier.",
+    "summary": "Versatile developer with strengths in architecture and web technologies. Great team player who can also deliver independently. Confident in leading other engineers. Dedicated to keeping it simple and making other developers' lives easier.",
     "profiles": [
       {
         "network": "Github",
@@ -15,30 +15,34 @@
       {
         "network": "LinkedIn",
         "url": "https://www.linkedin.com/in/david-coxon-0b12209a/"
+      },
+      {
+        "username": "davidc",
+        "url": "http://www.bebo.com"
       }
     ]
   },
   "work": [
     {
       "company": "AbacusNext",
-      "position": "Senior Developer",
+      "position": "Lead Front End Developer",
       "startDate": "2021-03-08",
-      "summary": "Driving modernisation of web apps and practices",
+      "summary": "Driving modernisation of web apps and development practices",
       "highlights": [
         "Delivered rebuild of complicated legacy application in React, published as a web component.",
-        "Architected and implemented an integration layer to seamlessly replace legacy application with modern whilst maintaining its deep integrations.",
-        "Drove practices such as mono repos, componentisation and automated ui testing."
+        "Architected and implemented an integration layer to replace a legacy application without breaking its legacy client-facing APIs.",
+        "Championed practices such as mono repos, componentisation and automated UI testing."
       ]
     },
     {
       "company": "JP Morgan",
       "position": "Senior Associate",
       "startDate": "2017-04-20",
-      "summary": "Lead developer on high profile trading platform.",
+      "summary": "Lead developer on high profile, electron based trading platform.",
       "highlights": [
-        "Designed and lead major technical revision.",
-        "Devised solution for seamless upgrades.",
-        "Oversaw years without a single major production issue.",
+        "Designed and lead part of a major technical revision.",
+        "Responsible for outward facing APIs and integrations of applications onboarded onto our platform.",
+        "Oversaw years without a single major incident due to code quality and timely mitigations.",
         "Trained multiple new joiners and graduates."
       ]
     },
@@ -56,7 +60,7 @@
     },
     {
       "company": "Lockheed Martin",
-      "position": "Graduate/Associate Developer",
+      "position": "Associate Developer",
       "startDate": "2015-01-01",
       "endDate": "2016-08-01"
     }
@@ -83,11 +87,12 @@
         "Webpack",
         "Mono-Repo",
         "Eslint",
-        "Electron"
+        "Electron",
+        "Styled Components"
       ]
     },
     {
-      "name": "Back End",
+      "name": "Back End (Rusty)",
       "level": "intermediate",
       "keywords": ["Node-js", "REST", "express", "c#", "My-SQL", "MongoDB"]
     },
